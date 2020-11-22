@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+h1, h2, h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.container {
+    margin: 2% 4%;
+}
+header{
+    width: 100%;
+    background-image: url(../images/bg-hero-desktop.svg);
+    height: 655px;
+    background-color: hsl(193, 100%, 96%);
+}
+header nav button{
+    position: absolute;
+    right: 0;
+    background-color: #FFFFFF;
+    padding: 1% 6%;
+    border-radius: 25px;
+    border: none;
+    font-weight: 600;
+    box-shadow: 0px 3px 2px 0px rgba(218, 214, 214, 0.719);
+}
+header div{margin: 0 4%;}
+header div h1{width: 90%; font-size: 3rem; margin-top: 10%;}
+header div p{width: 90%; margin-top: 20px;}
+header section img{width: 100%;}
+header div section {float: left; width: 50%; margin-top: 6%;}
+header div button{
+    color: #FFFFFF; 
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 25px;
+    padding: 2% 10%;
+    border: none;
+    margin-top: 20px;
+}
+
+.grow .container{
+    box-shadow: 0px 0px 10px 3px rgba(218, 214, 214, 0.719);
+    border-radius: 10px;
+    border: solid #FFFFFF 5px;
+    margin-top: 75px;
+}
+.grow section{
+    width: 40%;
+    float: left;
+    margin: 15% 5%;
+}
+.grow h1{margin-bottom: 3%;}
+
+.grow img{width: 44%; margin: 2%;}
+.flowing .container{
+    box-shadow: 0px 0px 10px 3px rgba(218, 214, 214, 0.719);
+    border-radius: 10px;
+    border: solid #FFFFFF 5px;
+    margin-top: 75px;
+}
+.flowing section{
+    width: 40%;
+    float: right;
+    margin: 13% 5%;
+}
+.flowing h1{margin-bottom: 3%;}
+.flowing img{width: 44%; margin: 2%;}
+
+.users .container{
+    box-shadow: 0px 0px 10px 3px rgba(218, 214, 214, 0.719);
+    border-radius: 10px;
+    border: solid #FFFFFF 5px;
+    margin-top: 75px;
+}
+.users section{
+    width: 40%;
+    float: left;
+    margin: 13% 5%;
+}
+.users h1{margin-bottom: 3%;}
+.users img{width: 44%; margin: 2%;}
+
+
+footer{
+    color: hsl(193, 100%, 96%); 
+    background-color: hsl(192, 100%, 9%); 
+    height: 400px;
+    position: relative;
+    margin-top: 150px;
+}
+footer .container{
+    margin-top: 100px;
+    overflow: hidden;
+}
+footer .container > img{margin-top: 70px;}
+footer .container div section{
+    width: 23.2% ;
+    float: left;
+    margin-top: 30px;
+    margin: 50px 20px 0 0;
+}
+footer section img{float: left; margin: 10px 20px 10px 0; height: 25px;}
+footer a{color: hsl(193, 100%, 96%)}
+footer .container div section{display: flex; flex-direction: column;}
+footer .container > p {position: absolute; right: 20px; bottom: 20px;}
+
+.ready button{
+    color: #FFFFFF; 
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 25px;
+    padding: 2% 8%;
+    border: none;
+    margin-top: 35px;
+}
+.ready{
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(218, 214, 214, 0.719);
+    border: solid #FFFFFF 5px;
+    width: 50%;
+    background-color: #FFFFFF;
+    color: #000000;
+    height: 200px;
+    text-align: center;
+    position: absolute;
+    right: 24%;
+    top: -25%;
+}
